@@ -13,3 +13,7 @@ a small project i wrote in about an hour to capture raw PCM data from spotify, a
 - open audacity, import -> raw data
 - encoding: 32-bit float, 2 channels, 44100 hz
 - export however you wish (if you want to maintain bit perfectness, export as wav w/ stero, 44100 khz, signed 32bit PCM)
+
+## projects used
+[safetyhook](https://github.com/cursey/safetyhook)\
+[HoShiMin's SymParser](https://gist.github.com/HoShiMin/779d1c5e96e50a653ca43511b7bcb69a)
