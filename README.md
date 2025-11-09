@@ -3,7 +3,7 @@ a small project i wrote in about an hour to capture raw PCM data from spotify, a
 this method is similar to how discord and OBS captures audio exclusively from games
 
 ## usage
-- copy dbghelp.dll, symsrv.dll and symsrv.yes to the folder where Spotify.exe is from Windows Debugging Kit (look at C:\Windows Kits\N\Debuggers\[x86 or x64]\)
+- copy dbghelp.dll, symsrv.dll and symsrv.yes to the folder where Spotify.exe (get them from Windows Debugging Kit (look at C:\Windows Kits\N\Debuggers\[x86 or x64]\)
 - close spotify if it was already open
 - start spotify
 - inject pcm_recorder.dll into the spotify process with no command line args (it also owns the main window titled 'Spotify Premium')
