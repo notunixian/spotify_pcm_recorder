@@ -1,5 +1,6 @@
 # spotify_pcm_recorder
-a small project i wrote in about an hour to capture raw PCM data from spotify, allows you to capture spotify lossless (although this is very ineffecient for any true downloading/ripping purposes)
+a small project i wrote in about an hour to capture raw PCM data from spotify, allows you to capture spotify lossless (although this is very ineffecient for any true downloading/ripping purposes)\
+this method is similar to how discord and OBS captures audio exclusively from games
 
 ## usage
 - copy dbghelp.dll, symsrv.dll and symsrv.yes to the folder where Spotify.exe is from Windows Debugging Kit (look at C:\Windows Kits\N\Debuggers\[x86 or x64]\)
